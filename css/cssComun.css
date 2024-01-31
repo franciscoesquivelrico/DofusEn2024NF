@@ -13,6 +13,7 @@ ul{
 li{
     box-shadow: 2px 2px 5px;
     margin: 5px;
+    font-family: 'Exo', sans-serif;
 }
 
 li, a{
@@ -32,7 +33,7 @@ li, a{
     backdrop-filter: blur(40px);
     text-align: center;
     box-shadow: 2px 2px 5px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     padding-top: 8px;
     background-color: rgb(127, 178, 133, 0.2);
@@ -50,7 +51,6 @@ li, a{
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
 }
-
 
 nav li a:hover{
     background-color:rgb(198, 173, 148, 60%);

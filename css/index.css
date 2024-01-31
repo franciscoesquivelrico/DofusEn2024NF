@@ -13,10 +13,17 @@
     padding-top: 5px;
 }
 
+#textoDiv1{
+    margin-top: 45px;
+}
+
+#textoDiv2{
+    margin-top: 23px;
+}
+
 .textoDiv{
     width: 450px;
     position: absolute;
-    margin-top: 45px;
 }
 
 .textoMasImagen{
