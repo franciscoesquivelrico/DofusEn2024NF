@@ -1,0 +1,12 @@
+#imagenIndex1{
+    width: 500px;
+}
+
+#mainDiv{
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+
+.displayInline{
+    display: inline;
+}
