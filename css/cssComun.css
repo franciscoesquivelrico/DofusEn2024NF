@@ -14,6 +14,8 @@ li{
     box-shadow: 2px 2px 5px;
     margin: 5px;
     font-family: 'Exo', sans-serif;
+    font-size: larger;
+    
 }
 
 li, a{
@@ -22,6 +24,7 @@ li, a{
    height: 54px;
    border-radius: 20px;
    background-color: rgba(170, 236, 178, 0.1);
+   vertical-align: middle;
 }
 
 #navUL{
