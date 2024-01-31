@@ -12,12 +12,15 @@ ul{
 
 li{
     box-shadow: 2px 2px 5px;
+    margin: 5px;
+}
+
+li, a{
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 170px;
+    width: 180px;
    height: 54px;
    border-radius: 20px;
+   background-color: rgba(170, 236, 178, 0.1);
 }
 
 #navUL{
@@ -31,6 +34,11 @@ li{
     box-shadow: 2px 2px 5px;
     margin-bottom: 80px;
     padding-bottom: 20px;
+    padding-top: 8px;
+    background-color: rgb(127, 178, 133, 0.2);
+    border-radius: 0px 0px 90px 90px;
+    width: 1700px;
+    margin-left: 100px;
 }
 
 #navImg{
@@ -40,4 +48,11 @@ li{
 #mainDiv{
     width: 1050px;
     margin-left: 450px;
+    background-color: rgba(170, 236, 178, 0.2);
+}
+
+
+nav li a:hover{
+    background-color:rgb(198, 173, 148, 60%);
+    color: white;
 }
