@@ -11,16 +11,26 @@ ul{
 }
 
 li{
+    box-shadow: 2px 2px 5px;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     width: 170px;
-   
+   height: 54px;
+   border-radius: 20px;
+}
+
+#navUL{
+    height: 54px;
+    display: inline;
 }
 
 #navDiv{
+    backdrop-filter: blur(40px);
     text-align: center;
+    box-shadow: 2px 2px 5px;
     margin-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 #navImg{

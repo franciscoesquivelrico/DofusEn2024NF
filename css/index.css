@@ -1,12 +1,33 @@
-#imagenIndex1{
-    width: 500px;
+.imagenIndex{
+    width: 400px;
+    float: right;
+    position: relative;
+    box-shadow: 2px 2px 5px;
 }
 
 #mainDiv{
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(40px);
     text-align: center;
+    box-shadow: 2px 2px 5px;
+    padding-bottom: 20px;
+    padding-top: 5px;
 }
 
-.displayInline{
-    display: inline;
+.textoDiv{
+    width: 450px;
+    position: absolute;
+    margin-top: 45px;
+}
+
+.textoMasImagen{
+    align-content: center;
+    display: inline-block;
+    width: 900px;
+    height: 225px;
+    box-shadow: 2px 2px 5px;
+}
+
+h1{
+    box-shadow: 2px 2px 5px;
+    margin: 20px;
 }
