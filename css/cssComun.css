@@ -2,6 +2,7 @@ body{
     background-image: url(../img/fondoArboles.jpg);
     background-size: auto;
     margin: 0;
+    color: #1f1003;
 }
 
 ul{
@@ -13,9 +14,7 @@ ul{
 li{
     box-shadow: 2px 2px 5px;
     margin: 5px;
-    font-family: 'Exo', sans-serif;
-    font-size: larger;
-    
+    font-family: 'Permanent Marker', cursive;
 }
 
 li, a{
@@ -23,7 +22,7 @@ li, a{
     width: 180px;
    height: 54px;
    border-radius: 20px;
-   background-color: rgba(170, 236, 178, 0.1);
+   background-color: rgba(185, 221, 255, 0.2);
    vertical-align: middle;
 }
 
@@ -39,7 +38,7 @@ li, a{
     margin-bottom: 50px;
     padding-bottom: 20px;
     padding-top: 8px;
-    background-color: rgb(127, 178, 133, 0.2);
+    background-color: rgba(231, 252, 233, 0.2);
     border-radius: 0px 0px 90px 90px;
     width: 1700px;
     margin-left: 100px;
@@ -59,3 +58,14 @@ nav li a:hover{
     background-color:rgb(198, 173, 148, 60%);
     color: white;
 }
+
+.navButton{
+    color: #10161b;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
