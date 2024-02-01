@@ -18,13 +18,13 @@ li{
     font-size: larger;
 }
 
-li, a{
+li, .navButton{
     display: inline-block;
     width: 180px;
    height: 54px;
    border-radius: 20px;
    background-color: rgba(185, 221, 255, 0.2);
-   vertical-align: middle;
+  
 }
 
 #navUL{
@@ -55,10 +55,7 @@ li, a{
     background-color: rgba(170, 236, 178, 0.2);
 }
 
-nav li a:hover{
-    background-color:rgb(198, 173, 148, 60%);
-    color: white;
-}
+
 
 .navButton{
     color: #10161b;
@@ -74,3 +71,8 @@ a{
     text-decoration: none;
 }
 
+.navButton:hover,li:hover{
+    transform:translateY(-4px);
+    background-color:rgba(22, 89, 94, 0.6);
+    color: white;
+}
