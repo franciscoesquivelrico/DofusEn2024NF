@@ -46,4 +46,7 @@ h1{
     transform: scale(1.02);
 }
 
+#imagenIndex3{
+    filter: brightness(80%);
+}
 
