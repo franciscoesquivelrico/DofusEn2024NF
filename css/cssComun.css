@@ -53,9 +53,10 @@ li, .navButton{
     width: 1050px;
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    backdrop-filter: blur(40px);
 }
-
-
 
 .navButton{
     color: #10161b;
@@ -75,4 +76,16 @@ a{
     transform:translateY(-4px);
     background-color:rgba(22, 89, 94, 0.6);
     color: white;
+}
+
+footer{
+    color: rgb(214, 221, 221);
+    backdrop-filter: blur(40px);
+    text-align: center;
+    box-shadow: 2px 2px 5px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: rgb(56, 56, 56, 0.5);
 }
