@@ -16,7 +16,6 @@ li{
     margin: 5px;
     font-family: 'Permanent Marker', cursive;
     font-size: larger;
-    
 }
 
 li, a{
@@ -65,6 +64,10 @@ nav li a:hover{
     color: #10161b;
     font-size: x-large;
     font-weight: bold;
+}
+
+#navImg:hover{
+    transform: scale(1.06);
 }
 
 a{
