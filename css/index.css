@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .imagenIndex{
     width: 400px;
     float: right;
@@ -40,3 +41,57 @@ h1{
     margin: 20px;
     font-family: 'Permanent Marker', cursive;
 }
+=======
+.imagenIndex{
+    width: 400px;
+    float: right;
+    position: relative;
+    box-shadow: 2px 2px 5px;
+}
+
+#mainDiv{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+#textoDiv1{
+    margin-top: 45px;
+}
+
+#textoDiv2{
+    margin-top: 23px;
+}
+
+.textoDiv{
+    width: 450px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.textoMasImagen{
+    align-content: center;
+    display: inline-block;
+    width: 900px;
+    height: 225px;
+    box-shadow: 2px 2px 5px;
+    background-color: rgba(248, 255, 255, 0.1);
+}
+
+h1{
+    box-shadow: 2px 2px 5px;
+    margin: 20px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgba(248, 255, 255, 0.1);
+}
+
+.imagenIndex:hover{
+    transform: scale(1.02);
+}
+
+#imagenIndex3{
+    filter: brightness(80%);
+}
+
+>>>>>>> principal

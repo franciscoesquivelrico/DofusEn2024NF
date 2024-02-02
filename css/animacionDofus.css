@@ -1,0 +1,32 @@
+#contenedor {
+    display: flex;
+    height: 260px;
+    width: 100%;
+    background-color: rgba(170, 236, 178, 0.2);
+    box-shadow: 2px 2px 5px;
+    backdrop-filter: blur(40px);
+}
+.dofus {
+    align-self: flex-end;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+#margenDofus{
+    margin-left: 375px;
+}
+
+.tamañoDofus{
+    width: 200px;
+    height: 200px;
+}
