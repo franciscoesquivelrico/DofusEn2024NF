@@ -6,12 +6,10 @@
 }
 
 #mainDiv{
-    backdrop-filter: blur(40px);
     text-align: center;
-    box-shadow: 2px 2px 5px;
     padding-bottom: 20px;
     padding-top: 5px;
-    border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 #textoDiv1{
@@ -25,6 +23,7 @@
 .textoDiv{
     width: 450px;
     position: absolute;
+    margin-left: 20px;
 }
 
 .textoMasImagen{
@@ -33,10 +32,21 @@
     width: 900px;
     height: 225px;
     box-shadow: 2px 2px 5px;
+    background-color: rgba(248, 255, 255, 0.1);
 }
 
 h1{
     box-shadow: 2px 2px 5px;
     margin: 20px;
     font-family: 'Permanent Marker', cursive;
+    background-color: rgba(248, 255, 255, 0.1);
 }
+
+.imagenIndex:hover{
+    transform: scale(1.02);
+}
+
+#imagenIndex3{
+    filter: brightness(80%);
+}
+
