@@ -46,6 +46,10 @@ h1{
     transform: scale(1.02);
 }
 
+#indexAImg:hover{
+    transform: scale(1.05);
+}
+
 #imagenIndex3{
     filter: brightness(80%);
 }
