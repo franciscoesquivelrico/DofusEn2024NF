@@ -1,0 +1,90 @@
+.titulosRazas{
+    box-shadow: 2px 2px 5px;
+    margin: 20px;
+    background-color: rgba(248, 255, 255, 0.1);
+    text-align: center;
+}
+
+.imagenDerecha{
+    width: 250px;
+    float: right;
+    position: relative;
+}
+
+.imagenIzquierda{
+    width: 250px;
+    float: left;
+    position: absolute;
+}
+
+.divTextoImagen{
+    align-content: center;
+    display: inline-block;
+    width: 900px;
+    height: 225px;
+    box-shadow: 2px 2px 5px;
+    background-color: rgba(248, 255, 255, 0.1);
+}
+
+.divTextoDerecha{
+    width: 450px;
+    position: absolute;
+    margin-left: 500px;
+}
+.divTextoIzquierda{
+    width: 450px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#imagenXelors{
+    width: 350px;
+}
+
+#imagenPandawa{
+    width: 250px;
+}
+
+#imagenSrams{
+    width: 200px;
+}
+
+#imagenYopukas{
+    width: 170px;
+}
+
+#imagenOcras{
+    width: 170px;
+}
+
+#imagenZobals{
+    width: 200px;
+}
+
+#imagenSacrogritos{
+    width: 300px;
+}
+
+#imagenFecas{
+    width: 170px;
+}
+
+#imagenZurcarak{
+    width: 170px;
+}
+
+#imagenAnutrofs{
+    width: 200px;
+}
+
+#imagenSteamers{
+    width: 210px;
+}
+
+#imagenOsamodas{
+    width: 200px;
+}
+
+#imagenSadidas{
+    width: 270px;
+}
