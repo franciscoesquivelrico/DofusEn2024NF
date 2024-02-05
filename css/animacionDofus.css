@@ -7,6 +7,7 @@
     background-color: rgba(170, 236, 178, 0.2);
     box-shadow: 2px 2px 5px;
     backdrop-filter: blur(40px);
+    padding-bottom: 20px;
 }
 .dofus {
     filter: brightness(1);
