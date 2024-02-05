@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-.imagenIndex{
-    width: 400px;
-    float: right;
-    position: relative;
-    box-shadow: 2px 2px 5px;
-}
-
-#mainDiv{
-    backdrop-filter: blur(40px);
-    text-align: center;
-    box-shadow: 2px 2px 5px;
-    padding-bottom: 20px;
-    padding-top: 5px;
-    border-radius: 5px;
-}
-
-#textoDiv1{
-    margin-top: 45px;
-}
-
-#textoDiv2{
-    margin-top: 23px;
-}
-
-.textoDiv{
-    width: 450px;
-    position: absolute;
-}
-
-.textoMasImagen{
-    align-content: center;
-    display: inline-block;
-    width: 900px;
-    height: 225px;
-    box-shadow: 2px 2px 5px;
-}
-
-h1{
-    box-shadow: 2px 2px 5px;
-    margin: 20px;
-    font-family: 'Permanent Marker', cursive;
-}
-=======
 .imagenIndex{
     width: 400px;
     float: right;
@@ -94,4 +50,3 @@ h1{
     filter: brightness(80%);
 }
 
->>>>>>> principal
