@@ -14,8 +14,6 @@ ul{
 li{
     box-shadow: 2px 2px 5px;
     margin: 5px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: larger;
 }
 
 li, .navButton{
@@ -33,10 +31,13 @@ li, .navButton{
 }
 
 #navDiv{
+    top: 0;
+    position: fixed;
+    z-index: 1;
     backdrop-filter: blur(40px);
     text-align: center;
     box-shadow: 2px 2px 5px;
-    margin-bottom: 50px;
+    margin-bottom:50px;
     padding-bottom: 20px;
     padding-top: 8px;
     background-color: rgba(231, 252, 233, 0.2);
@@ -50,6 +51,7 @@ li, .navButton{
 }
 
 #mainDiv{
+    margin-top: 175px;
     width: 1050px;
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
@@ -60,7 +62,7 @@ li, .navButton{
 
 .navButton{
     color: #10161b;
-    font-size: x-large;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -88,4 +90,18 @@ footer{
     border-radius: 5px;
     padding-top: 10px;
     background-color: rgb(56, 56, 56, 0.5);
+}
+
+#indexA{
+    bottom: 50px;
+    left: 50px;
+    position:fixed;
+    z-index: 1;
+}
+
+#indexAImg{
+    box-shadow: 2px 2px 2px #FF9C7E;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
 }
