@@ -1,4 +1,6 @@
-#contenedor {
+#containerDofuses {
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejZhN3p2eGVhaWdoM2hucXlsc2x1NWhkMWVjbnNtMmNvNDVoYmIxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kHByu1FgLQdjtdQVQA/giphy.gif);
+    background-size: cover;
     display: flex;
     height: 260px;
     width: 100%;
@@ -7,6 +9,9 @@
     backdrop-filter: blur(40px);
 }
 .dofus {
+    filter: brightness(1);
+    border-radius: 200px;
+    box-shadow: 1px 1px 100px;
     align-self: flex-end;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;

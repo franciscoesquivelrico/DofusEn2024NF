@@ -31,6 +31,7 @@ li, .navButton{
 }
 
 #navDiv{
+    background-size: cover;
     top: 0;
     position: fixed;
     z-index: 1;
@@ -100,7 +101,8 @@ footer{
 }
 
 #indexAImg{
-    box-shadow: 2px 2px 2px #FF9C7E;
+
+    box-shadow: 2px 2px 20px #FF9C7E;
     border-radius: 200px;
     width: 150px;
     height: 150px;
