@@ -56,7 +56,7 @@ li, .navButton{
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
     border-radius: 5px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 5px 5px 100px;
     backdrop-filter: blur(40px);
 }
 
