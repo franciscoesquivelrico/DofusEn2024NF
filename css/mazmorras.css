@@ -1,0 +1,33 @@
+.imagenIndex{
+    width: 400px;
+    float: right;
+    position: relative;
+    box-shadow: 2px 2px 5px;
+}
+
+#mainDiv{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+#textoDiv1{
+    margin-top: 20px;
+    font-size: large;
+}
+
+.textoDiv{
+    width: 450px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.textoMasImagen{
+    align-content: center;
+    display: inline-block;
+    width: 900px;
+    height: 225px;
+    box-shadow: 2px 2px 5px;
+    background-color: rgba(248, 255, 255, 0.1);
+}
