@@ -38,8 +38,8 @@
 h1{
     box-shadow: 2px 2px 5px;
     margin: 20px;
-    font-family: 'Permanent Marker', cursive;
     background-color: rgba(248, 255, 255, 0.1);
+    font-size:x-large;
 }
 
 .imagenIndex:hover{
@@ -49,4 +49,3 @@ h1{
 #imagenIndex3{
     filter: brightness(80%);
 }
-

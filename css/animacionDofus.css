@@ -1,12 +1,18 @@
-#contenedor {
+#containerDofuses {
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejZhN3p2eGVhaWdoM2hucXlsc2x1NWhkMWVjbnNtMmNvNDVoYmIxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kHByu1FgLQdjtdQVQA/giphy.gif);
+    background-size: cover;
     display: flex;
     height: 260px;
     width: 100%;
     background-color: rgba(170, 236, 178, 0.2);
     box-shadow: 2px 2px 5px;
     backdrop-filter: blur(40px);
+    padding-bottom: 20px;
 }
 .dofus {
+    filter: brightness(1);
+    border-radius: 200px;
+    box-shadow: 1px 1px 100px;
     align-self: flex-end;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;

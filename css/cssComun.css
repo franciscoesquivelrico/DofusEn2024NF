@@ -14,8 +14,6 @@ ul{
 li{
     box-shadow: 2px 2px 5px;
     margin: 5px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: larger;
     display: inline-block;
     width: 180px;
     height: 54px;
@@ -67,10 +65,14 @@ li:hover{
 }
 
 #navDiv{
+    background-size: cover;
+    top: 0;
+    position: fixed;
+    z-index: 1;
     backdrop-filter: blur(40px);
     text-align: center;
     box-shadow: 2px 2px 5px;
-    margin-bottom: 50px;
+    margin-bottom:50px;
     padding-bottom: 20px;
     padding-top: 8px;
     background-color: rgba(231, 252, 233, 0.2);
@@ -84,17 +86,18 @@ li:hover{
 }
 
 #mainDiv{
+    margin-top: 175px;
     width: 1050px;
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
     border-radius: 5px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 5px 5px 100px;
     backdrop-filter: blur(40px);
 }
 
 .navButton{
     color: #10161b;
-    font-size: x-large;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -116,4 +119,19 @@ footer{
     border-radius: 5px;
     padding-top: 10px;
     background-color: rgb(56, 56, 56, 0.5);
+}
+
+#indexAImg:hover{
+    transform: scale(1.05);
+}
+
+#indexAImg{
+    width: 150px;
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    z-index: 1;
+    border-radius: 200px;
+    box-shadow: 2px 2px 100px #ffb48d;
+
 }
