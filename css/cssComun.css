@@ -120,3 +120,18 @@ footer{
     padding-top: 10px;
     background-color: rgb(56, 56, 56, 0.5);
 }
+
+#indexAImg:hover{
+    transform: scale(1.05);
+}
+
+#indexAImg{
+    width: 150px;
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    z-index: 1;
+    border-radius: 200px;
+    box-shadow: 2px 2px 100px #ffb48d;
+
+}
