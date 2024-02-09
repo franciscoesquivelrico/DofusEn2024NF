@@ -8,12 +8,12 @@ body{
     height: 225px;
     float: right;
     position: relative;
-    box-shadow: 2px 2px 5px #3b264d;
+    box-shadow: 2px 2px 5px white;
 }
 
 #mainDiv{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-top: 5px;
     margin-bottom: 50px;
 }
@@ -34,7 +34,7 @@ body{
     display: inline-block;
     width: 900px;
     height: 225px;
-    box-shadow: 2px 2px 5px #3b264d;
+    box-shadow: 2px 2px 5px white;
     background-color: rgba(248, 255, 255, 0.1);
 }
 
@@ -47,24 +47,20 @@ body{
     font-size: larger;
     display: inline-block;
     margin-left: 680px;
-    box-shadow: 2px 2px 5px #3b264d;
-    background-color: rgba(185, 221, 255, 0.4);
+    background-color: rgba(24, 24, 24, 0.8);
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .carrusel{
-    border-radius: 100px;
-    box-shadow: 2px 2px 5px #3b264d; 
-    background-color: rgba(185, 221, 255, 0.2);
+    background-color: rgba(24, 24, 24, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
     height: 70vh;
-    margin-left: 180px;
 }
 
 .imagenes{
@@ -75,7 +71,7 @@ body{
 }
 
 .img{
-    box-shadow: 2px 2px 20px #3b264d;
+    box-shadow: 2px 2px 20px white;
     height: 576px;
     width: 1134px;
     border-radius: 15px ;
@@ -147,7 +143,7 @@ body{
     font-size: 100px;
     font-weight: 500;
     margin-top: -50px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .puntos .bold{
@@ -157,6 +153,38 @@ body{
     color: #5E17EB ;
 }
 
-#atras:hover, #adelante:hover{
+.adelante{
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes adelante{
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(15px); }
+    100% { transform: translateX(0); }
+  }
+
+  .adelante:hover {
+    animation-name:adelante;
+    animation-timing-function: ease;
     cursor: pointer;
+    transform:scale(1.1);
+}
+
+.atras{
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes atras{
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-15px); }
+    100% { transform: translateX(0); }
+  }
+
+  .atras:hover {
+    animation-name:atras;
+    animation-timing-function: ease;
+    cursor: pointer;
+    transform:scale(1.1);
 }

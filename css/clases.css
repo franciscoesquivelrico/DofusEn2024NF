@@ -131,33 +131,3 @@ p{
     width: 500px;
     height: 200px;
 }
-
-
-.navButton{
-    display: inline-block;
-    width: 180px;
-    height: 45px;
-    border-radius: 20px;
-    background-color: rgba(185, 221, 255, 0.2);
-    padding-top: 10px;
-    margin-top: 0.5px;
-}
-li{
-    display: inline-block;
-    width: 180px;
-    height: 54px;
-    border-radius: 20px;
-    background-color: rgba(185, 221, 255, 0.2);
-}
-
-.navButton:hover{
-    transform:translateY(-1px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
-}
-
-li:hover{
-    transform:translateY(-4px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
-}
