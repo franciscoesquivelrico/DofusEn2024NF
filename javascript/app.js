@@ -21,6 +21,11 @@ let imagenes = [
         "url": "../img/ciremomore.png",
         "nombre": "Cire Momore",
         "descripcion": "Cire Momore es una armadura animada capaz de succionar las almas de quienes se atreven a tocar el tesoro puesto bajo su protección."
+    },
+    {
+        "url": "../img/talkasha.jpg",
+        "nombre": "Tal Kasha",
+        "descripcion": "Tal Kasha es la Reina de los Malditos. Ella y sus sirvientes fueron condenados por el Dios Xelor a una vida de sufrimiento, atrapados en la pirámide de Picahari por la eternidad."
     }
 ]
 
