@@ -6,17 +6,22 @@ let imagenes = [
 
     },
     {
-        "url": "",
+        "url": "../img/jinetes.jpg",
         "nombre": "Jinetes del Selocalipsis",
         "descripcion": "Miseria, Servidumbre, Guerra y Corrupción. 'Esta guerra no figura en los registros del reloj divino...'"
 
     },
     {
-        "url": "",
-        "nombre": "Proyecto 03",
-        "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "url": "../img/ily.jpg",
+        "nombre": "Ilyzaelle",
+        "descripcion": "Ilyzaelle es la campeona de Jiva, Caballero del Cielo y guardiana de Noa, una de las 7 lanzas del juramento."
 
     },
+    {
+        "url": "../img/ciremomore.png",
+        "nombre": "Cire Momore",
+        "descripcion": "Cire Momore es una armadura animada capaz de succionar las almas de quienes se atreven a tocar el tesoro puesto bajo su protección."
+    }
 ]
 
 
