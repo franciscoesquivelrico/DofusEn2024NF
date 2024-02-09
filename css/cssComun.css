@@ -96,7 +96,7 @@ li:hover{
     width: 1050px;
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 5px 5px 100px;
     backdrop-filter: blur(40px);
 }
