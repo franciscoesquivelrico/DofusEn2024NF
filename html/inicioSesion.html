@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="../css/cssComun.css">
+    <link rel="stylesheet" href="../css/iniciosesion.css"> 
 </head>
 <body>
+    <div id="navDiv">
+        <nav>
+            <ul id="navUL">
+                <li><a class="navButton"  href="./index.html">Inicio</a></li>
+                <li><a class="navButton"  href="./clases.html">Clases</a></li>
+                <li><a class="navButton"  href="./mazmorras.html">Mazmorras</a></li>
+                <li><a id = "navButtonImagen"  href="./index.html"><img id="navImg" src="../img/Dofuses/Dofus_Esmeralda.webp" alt=""></a></li>
+                <li><a class="navButton"  href="./contacto.html">Contacto</a></li>
+                <li><a class="navButton"  href="./quienessomos.html">Sobre nosotros</a></li>
+                <li><a class="navButton"  href="./registro.html">Registrarse</a></li>
+               
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mainDiv">
+        <form>
+            <h1 id="titulo">Inicio Sesión</h1>
+            <div id="datos">
+                <div id="inicioSesion">
+                    <span>&#128100;</span> 
+                    <input type="text" name="nombreUsuario"  placeholder= "Nombre de usuario"; id="tamanhioUsuario">
+                    <br>
+                    <span>&#128272</span> 
+                    <input type="password" name="contraseña"  placeholder= "Contraseña"; id="tamanhioContrasenia">
     
+                    <div id="recuperarContraseña">
+                        <a href="./recuperar.html">Recuperar contraseña</a>
+                    </div>
+                </div>
+                
+                <input type="submit" value="Iniciar sesión" id="enviar">
+                <hr>
+                <div id="necesidadCuenta">
+                    <p id="pregunta">¿Necesitas una cuenta?</p> 
+                    <a href="./registro.html" id="necesidad">Registrar</a>
+                </div>
+            </div>
+        </form>  
+    </div>
+
+    <footer>
+        <address class="adress">
+            © Propiedad de Nerea Fernández Somoza y Francisco Esquivel Rico<br>
+            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/">Mitocondria</a> <br>
+            <a href="mailto:franciscoesquivel032@gmail.com">Contacto</a>
+        </address>
+    </footer>
+
 </body>
 </html>
