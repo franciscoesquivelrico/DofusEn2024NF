@@ -149,3 +149,7 @@
     margin-right: 10px;
     color: #5E17EB ;
 }
+
+#atras:hover, #adelante:hover{
+    cursor: pointer;
+}
