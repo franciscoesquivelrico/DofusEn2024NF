@@ -2,7 +2,7 @@
     width: 400px;
     float: right;
     position: relative;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px #3b264d;
 }
 
 #mainDiv{
@@ -31,12 +31,12 @@
     display: inline-block;
     width: 900px;
     height: 225px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px #3b264d;
     background-color: rgba(248, 255, 255, 0.1);
 }
 
 h1{
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px #3b264d;
     margin: 20px;
     background-color: rgba(248, 255, 255, 0.1);
     font-size:x-large;
