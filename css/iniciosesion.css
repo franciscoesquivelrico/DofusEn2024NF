@@ -1,0 +1,82 @@
+span{
+    font-size: 25px;
+}
+
+input{
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+#mainDiv{
+    height: 500px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+}
+
+#titulo{
+    padding-top: 30px;
+    padding-left: 60px;
+    margin-bottom: 15px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+   
+}
+
+#datos{
+    margin-left: 280px;
+    margin-top: 25px;
+    width: 500px;
+    height: 260px;
+    text-align: center;
+}
+
+#recuperarContraseña{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+#necesidadCuenta{
+    margin-right: 10px;
+}
+
+#pregunta{
+    display: inline-block;
+}
+
+#necesidad{
+    display: inline-block;
+    font-weight: bold;
+}
+
+#enviar{
+    margin-bottom: 20px;
+    background-color: #d44a77;
+    background-image: -moz-linear-gradient(top, #155887, #cf84d4);
+    background-image: -ms-linear-gradient(top, #155887, #cf84d4);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cf84d4), to(#cf84d4));
+    background-image: -webkit-linear-gradient(top, #155887, #cf84d4);
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    box-shadow: 2px 2px 100px #3b264d;
+}
+
+#tamanhioUsuario{
+    padding-right: 150px;
+}
+
+#tamanhioContrasenia{
+    padding-right: 150px;
+}
+
+#inicioSesion{
+    background-color: rgba(187, 217, 247, 0.4);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 100px;
+}
