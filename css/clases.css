@@ -119,7 +119,7 @@
 }
 
 #mainDiv{
-    overflow: scroll;
+    overflow-y: scroll;
     height: 700px;
     margin-bottom: 50px;
     padding-bottom: 20px;
@@ -131,6 +131,8 @@ p{
     width: 500px;
     height: 200px;
 }
+
+
 
 
 .navButton{

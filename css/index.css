@@ -2,7 +2,12 @@
     width: 400px;
     float: right;
     position: relative;
+<<<<<<< HEAD
     box-shadow: 2px 2px 5px #3b264d;
+=======
+    box-shadow: 2px 2px 5px;
+    border-radius: 5px 5px 5px;
+>>>>>>> desarrollo-nere
 }
 
 #mainDiv{
@@ -13,17 +18,19 @@
 }
 
 #textoDiv1{
-    margin-top: 45px;
-}
-
-#textoDiv2{
-    margin-top: 23px;
+    margin-top: 20px;
+    height: 190px;
 }
 
 .textoDiv{
     width: 450px;
     position: absolute;
     margin-left: 20px;
+    overflow-y: visible;
+    overflow-y: scroll;
+    height: 205px;
+    margin-top: 10px;
+    padding-right: 10px;
 }
 
 .textoMasImagen{
@@ -33,6 +40,15 @@
     height: 225px;
     box-shadow: 2px 2px 5px #3b264d;
     background-color: rgba(248, 255, 255, 0.1);
+    line-height: 28px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.marginDiv{
+    margin-bottom: 50px;
 }
 
 h1{
@@ -40,6 +56,9 @@ h1{
     margin: 20px;
     background-color: rgba(248, 255, 255, 0.1);
     font-size:x-large;
+    border-left: 5px solid rgba(129, 27, 87, 0.856);
+    padding: 10px;
+    border-radius: 10px 10px 2px;
 }
 
 .imagenIndex:hover{

@@ -24,6 +24,7 @@ li{
     width: 180px;
     height: 54px;
     border-radius: 20px;
+    border-bottom: solid 2px black;
     background-color: rgba(185, 221, 255, 0.2);
 }
 
@@ -42,7 +43,11 @@ li{
     width: 180px;
     height: 51px;
     border-radius: 20px;
+<<<<<<< HEAD
     background-color: rgba(185, 221, 255, 0.2);
+=======
+    padding-top: 2px;
+>>>>>>> desarrollo-nere
     margin-top: 0.5px;
 }
 
