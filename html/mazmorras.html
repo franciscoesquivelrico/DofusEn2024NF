@@ -1,36 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mazmorras</title>
-    <link rel="stylesheet" href="../css/cssComun.css">
-    <link rel="stylesheet" href="../css/mazmorras.css">
-    <link rel="icon" type="image/x-icon" href="../img/Dofus_Esmeralda.webp">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/cssComun.css" />
+    <link rel="stylesheet" href="../css/mazmorras.css" />
+    <link rel="icon" type="image/x-icon" href="../img/Dofus_Esmeralda.webp" />
+  </head>
+  <body>
     <div id="navDiv">
-        <nav>
-            <ul id="navUL">
-                <li><a class="navButton"  href="./index.html">Inicio</a></li>
-                <li><a class="navButton"  href="./clases.html">Clases</a></li>
-                <li><a class="navButton"  href="./contacto.html">Contacto</a></li>
-                <li><a class="navButton"  href="./index.html"><img id="navImg" src="../img/Dofuses/Dofus_Esmeralda.webp" alt=""></a></li>
-                <li><a class="navButton"  href="./quienessomos.html">Sobre nosotros</a></li>
-                <li><a class="navButton"  href="./registro.html">Registrarse</a></li>
-                <li><a class="navButton"  href="./inicioSesion.html">Iniciar sesión</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul id="navUL">
+          <li>
+            <a class="navButton" href="./index.html"
+              ><span class="spanNav">Inicio</span></a
+            >
+          </li>
+          <li><a class="navButton" href="./clases.html">Clases</a></li>
+          <li><a class="navButton" href="./contacto.html">Contacto</a></li>
+          <li>
+            <a id="navButtonImagen" href="./index.html"
+              ><img
+                id="navImg"
+                src="../img/Dofuses/Dofus_Esmeralda.webp"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a class="navButton" href="./quienessomos.html">Sobre nosotros</a>
+          </li>
+          <li><a class="navButton" href="./registro.html">Registrarse</a></li>
+          <li>
+            <a class="navButton" href="./inicioSesion.html">Iniciar sesión</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
+    <div id="principal">
+      <div id="mainDiv">
+        <div id="divQueEsDofus">
+          <h1 id="h1_QueEsDofus">¿Cómo funcionan las mazmorras en Dofus?</h1>
+          <div id="textoMasImagen1" class="textoMasImagen">
+            <div id="textoDiv1" class="textoDiv">
+              <span id="p1">
+                Es un sistema de mapas donde debes derrotar a una multitud de
+                monstruos para pasar al siguiente mapa de la mazmorra. <br />
+                Para entrar a la mazmorra se necesita una llave, y normalmente
+                hay un premio especial al terminar todos los niveles de la
+                mazmorra. <br />
+                Inicialmente los combates son contra 4 monstruos, aumentando
+                respectivamente con la cantidad de personajes del grupo hasta un
+                máximo de 8. <br />
+                El último combate de la mazmorra siempre constará con un
+                monstruo especial o jefe final.
+              </span>
+            </div>
+            <img
+              id="imagenIndex1"
+              class="imagenIndex"
+              src="../img/bossesFrisgor.jpg"
+              alt="Imagen bosses Frisgost 3"
+            />
+          </div>
+        </div>
+      </div>
 
+      <div id="encabezadoCarrusel"><h1>Algunos jefes de mazmorras</h1></div>
 
+      <div class="carrusel">
+        <div class="atras">
+          <img
+            id="atras"
+            src="../img/Carrusel/img/atras.svg"
+            alt="atras"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="imagenes">
+          <div id="img">
+            <img class="img" src="../img/condeKontatras.jpg" alt="imagen 1" />
+          </div>
+
+          <div id="texto" class="texto">
+            <h3>Conde Kontatrás</h3>
+            <p>
+              Jefe final de la isla de Frigost, la pelea tiene una particular
+              mecánica de horarios que modifican la dirección de los ataques de
+              los personajes.
+            </p>
+          </div>
+        </div>
+
+        <div class="adelante" id="adelante">
+          <img src="../img/Carrusel/img/adelante.svg" alt="adelante" />
+        </div>
+      </div>
+
+      <div class="puntos" id="puntos"></div>
+
+      <script src="../javascript/app.js"></script>
+
+      <div id="indexADiv">
+        <a id="indexA" href="../html/mazmorras.html"
+          ><img id="indexAImg" src="../img/MoonInicio.png" alt=""
+        /></a>
+      </div>
+    </div>
     <footer>
-        <address class="adress">
-            © Propiedad de Nerea Fernández Somoza y Francisco Esquivel Rico<br>
-            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/">Mitocondria</a> <br>
-            <a href="mailto:franciscoesquivel032@gmail.com">Contacto</a>
-        </address>
+      <address class="adress">
+        © Propiedad de Nerea Fernández Somoza y Francisco Esquivel Rico<br />
+        <a href="https://site.educa.madrid.org/ies.villablanca.madrid/"
+          >Mitocondria</a
+        >
+        <br />
+        <a href="mailto:franciscoesquivel032@gmail.com">Contacto</a>
+      </address>
     </footer>
-</body>
+  </body>
 </html>

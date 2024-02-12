@@ -1,9 +1,14 @@
+ @font-face {
+    font-family: "FreeSans";
+    src: url(../fonts/FreeSans.ttf);
+ }
+
 body{
     background-image: url(../img/fondoArboles.jpg);
     background-size: auto;
     margin: 0;
-    color: #1f1003;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #0c0c0c;
+    font-family: "FreeSans";
 }
 
 ul{
@@ -13,7 +18,7 @@ ul{
 }
 
 li{
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px #3b264d;
     margin: 5px;
     display: inline-block;
     width: 180px;
@@ -38,7 +43,11 @@ li{
     width: 180px;
     height: 51px;
     border-radius: 20px;
+<<<<<<< HEAD
+    background-color: rgba(185, 221, 255, 0.2);
+=======
     padding-top: 2px;
+>>>>>>> desarrollo-nere
     margin-top: 0.5px;
 }
 
@@ -73,7 +82,7 @@ li:hover{
     z-index: 1;
     backdrop-filter: blur(40px);
     text-align: center;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px #3b264d;
     margin-bottom:50px;
     padding-bottom: 20px;
     padding-top: 8px;
@@ -92,8 +101,8 @@ li:hover{
     width: 1050px;
     margin-left: 450px;
     background-color: rgba(170, 236, 178, 0.2);
-    border-radius: 5px;
-    box-shadow: 5px 5px 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 100px #3b264d;
     backdrop-filter: blur(40px);
 }
 
@@ -115,9 +124,8 @@ footer{
     color: rgb(214, 221, 221);
     backdrop-filter: blur(40px);
     text-align: center;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px #3b264d;
     padding-bottom: 20px;
-    padding-top: 5px;
     border-radius: 5px;
     padding-top: 10px;
     background-color: rgb(56, 56, 56, 0.5);

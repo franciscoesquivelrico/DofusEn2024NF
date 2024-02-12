@@ -1,0 +1,162 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenIndex{
+    width: 400px;
+    height: 225px;
+    float: right;
+    position: relative;
+    box-shadow: 2px 2px 5px #3b264d;
+}
+
+#mainDiv{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+#textoDiv1{
+    margin-top: 20px;
+    font-size: large;
+}
+
+.textoDiv{
+    width: 450px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.textoMasImagen{
+    align-content: center;
+    display: inline-block;
+    width: 900px;
+    height: 225px;
+    box-shadow: 2px 2px 5px #3b264d;
+    background-color: rgba(248, 255, 255, 0.1);
+}
+
+#textoDiv1{
+    overflow: scroll;
+    height: 180px;
+}
+
+#encabezadoCarrusel{
+    font-size: larger;
+    display: inline-block;
+    margin-left: 680px;
+    box-shadow: 2px 2px 5px #3b264d;
+    background-color: rgba(185, 221, 255, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.carrusel{
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px #3b264d; 
+    background-color: rgba(185, 221, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 80%;
+    height: 70vh;
+    margin-left: 180px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.img{
+    box-shadow: 2px 2px 20px #3b264d;
+    height: 576px;
+    width: 1134px;
+    border-radius: 15px ;
+    margin: 5px;
+    object-fit: cover;
+    filter: saturate(175%);
+}
+
+.texto{
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    transform: translateY(0px);
+    margin-bottom: 9px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(63, 106, 138, 0.21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.texto h3{
+    text-shadow: 0px 0px 15px #3b264d;
+    padding-top: 40px;
+    color: white;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.texto p{
+    align-items: center;
+    padding: 20px;
+    color:white;
+    font-size: 0px;
+    font-weight: 300;
+}
+
+.imagenes .texto{
+    width: 600px;
+    height: 100px;
+    transition: 1s;
+}
+
+.imagenes:hover .texto{
+    transition: height 1s, transform 1s, background-color 1s;
+    transform: translateY(-150px);
+    height: 300px;
+    background-color: rgba(63, 106, 138, 0.71);
+}
+
+.imagenes:hover .texto p{
+    transition: font-size 0s .2s linear;
+    font-size: 23px;
+    font-weight: 300;
+
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-left: -20px;
+}
+
+.puntos p{
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: -50px;
+    color: black;
+}
+
+.puntos .bold{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #5E17EB ;
+}
+
+#atras:hover, #adelante:hover{
+    cursor: pointer;
+}
