@@ -9,6 +9,7 @@ body{
     float: right;
     position: relative;
     box-shadow: 2px 2px 5px #3b264d;
+    border-radius: 5px 5px 5px;
 }
 
 #mainDiv{
@@ -16,11 +17,13 @@ body{
     padding-bottom: 20px;
     padding-top: 5px;
     margin-bottom: 50px;
+    border-left: 5px solid  rgba(129, 27, 87, 0.856);
 }
 
 #textoDiv1{
     margin-top: 20px;
-    font-size: large;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .textoDiv{
@@ -36,35 +39,36 @@ body{
     height: 225px;
     box-shadow: 2px 2px 5px #3b264d;
     background-color: rgba(248, 255, 255, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 #textoDiv1{
-    overflow: scroll;
+    overflow-y: scroll;
     height: 180px;
+    padding-right: 10px;
 }
 
 #encabezadoCarrusel{
+    border-left: 5px solid  rgba(129, 27, 87, 0.856);
     font-size: larger;
     display: inline-block;
     margin-left: 680px;
-    box-shadow: 2px 2px 5px #3b264d;
-    background-color: rgba(185, 221, 255, 0.4);
+    background-color: rgba(185, 221, 255, 0.3);
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .carrusel{
-    border-radius: 100px;
-    box-shadow: 2px 2px 5px #3b264d; 
-    background-color: rgba(185, 221, 255, 0.2);
+    background-color: rgba(185, 221, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
     height: 70vh;
-    margin-left: 180px;
 }
 
 .imagenes{
@@ -75,7 +79,7 @@ body{
 }
 
 .img{
-    box-shadow: 2px 2px 20px #3b264d;
+    box-shadow: 2px 2px 20px #160e1d;
     height: 576px;
     width: 1134px;
     border-radius: 15px ;
@@ -131,7 +135,6 @@ body{
     transition: font-size 0s .2s linear;
     font-size: 23px;
     font-weight: 300;
-
     text-shadow: 0px 0px 10px #000000;
 }
 
@@ -159,4 +162,44 @@ body{
 
 #atras:hover, #adelante:hover{
     cursor: pointer;
+}
+
+.adelante{
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes adelante{
+    0% { transform: translateX(0); }
+    50% { transform: translateX(15px); }
+    100% { transform: translateX(0); }
+}     
+
+.adelante:hover {   
+    animation-name:adelante;   
+    animation-timing-function: ease;
+    cursor: pointer;   
+    transform:scale(1.1);
+}
+
+.atras{   
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+   
+@keyframes atras{   
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-15px); }
+    100% { transform: translateX(0); }
+}
+
+.atras:hover {   
+    animation-name:atras;
+    animation-timing-function: ease;
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+.imagenIndex:hover{
+    transform: scale(1.02);
 }

@@ -2,12 +2,8 @@
     width: 400px;
     float: right;
     position: relative;
-<<<<<<< HEAD
-    box-shadow: 2px 2px 5px #3b264d;
-=======
     box-shadow: 2px 2px 5px;
     border-radius: 5px 5px 5px;
->>>>>>> desarrollo-nere
 }
 
 #mainDiv{
