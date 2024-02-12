@@ -3,6 +3,7 @@
     float: right;
     position: relative;
     box-shadow: 2px 2px 5px white;
+    border-radius: 5px 5px 5px;
 }
 
 #mainDiv{
@@ -13,20 +14,23 @@
 }
 
 #textoDiv1{
-    margin-top: 45px;
-}
-
-#textoDiv2{
-    margin-top: 23px;
+    margin-top: 20px;
+    height: 190px;
 }
 
 .textoDiv{
+    overflow-y: visible;
+    margin-top: 10px;
     width: 450px;
+    overflow: scroll;
+    height: 205px;
     position: absolute;
     margin-left: 20px;
 }
 
 .textoMasImagen{
+    line-height: 30px;
+    font-size: 18px;
     align-content: center;
     display: inline-block;
     width: 900px;
@@ -35,16 +39,14 @@
     background-color: rgba(230, 235, 235, 0.1);
 }
 
-#divQueEsDofus{
-    margin-top: 50px;
-}
-
 .marginDiv{
     margin-bottom: 50px;
 }
 
 h1{
-    box-shadow: 2px 2px 5px white;
+    border-left: 5px rgb(228, 226, 230) solid;
+    border-radius: 10px 10px 2px;
+    box-shadow: 2px 2px 5px rgb(220, 180, 238);
     margin: 20px;
     padding: 10px;
     background-color: rgba(248, 255, 255, 0.1);
