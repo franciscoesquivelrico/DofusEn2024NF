@@ -203,3 +203,18 @@ body{
 .imagenIndex:hover{
     transform: scale(1.02);
 }
+
+#textoDiv1::-webkit-scrollbar {
+    width: 12px;              
+}
+
+#textoDiv1::-webkit-scrollbar-track {
+    background:rgba(129, 27, 87, 0.856);      
+    border-radius: 20px;    
+}
+  
+#textoDiv1::-webkit-scrollbar-thumb {
+    background-color:#ffba90;  
+    border-radius: 20px;     
+    border: solid 1px black;
+}
