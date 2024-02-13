@@ -64,3 +64,19 @@ h1{
 #imagenIndex3{
     filter: brightness(80%);
 }
+
+
+.textoDiv::-webkit-scrollbar {
+    width: 12px;              
+}
+
+.textoDiv::-webkit-scrollbar-track {
+    background:rgba(129, 27, 87, 0.856);      
+    border-radius: 20px;    
+}
+  
+.textoDiv::-webkit-scrollbar-thumb {
+    background-color:#ffba90;  
+    border-radius: 20px;     
+    border: solid 1px black;
+}

@@ -141,3 +141,18 @@ footer{
     box-shadow: 2px 2px 100px #ffb48d;
 
 }
+
+body::-webkit-scrollbar {
+    width: 12px;              
+}
+
+body::-webkit-scrollbar-track {
+    background:rgba(129, 27, 87, 0.856);      
+
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color:#ffba90;    
+     
+    border: solid 1px black;
+}
