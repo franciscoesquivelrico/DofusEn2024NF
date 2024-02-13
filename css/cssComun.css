@@ -141,3 +141,111 @@ footer{
     box-shadow: 2px 2px 100px #ffb48d;
 
 }
+
+.imgSidebar{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.liSidebar{
+   padding: 5px;
+   padding-bottom: 0;
+}
+
+#headerSidebar{
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #c4daec3f;
+}
+
+#sidebar{
+    position: fixed;
+    left: 0px;
+    top: 250px;
+    z-index: 1;
+    border-radius: 0px 20px 20px 0px;
+    border-bottom: solid 2px black;
+    background-color: rgba(185, 221, 255, 0.2);
+    box-shadow: 2px 2px 5px #3b264d;
+    width: 230px;
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+.divTextSidebar{
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    justify-items: center;
+    margin-top: 13px;
+}
+
+.divImgSidebar{
+    display: inline-block;
+}
+
+.spanSidebar{
+    font-size: small;
+    text-align: center;
+    color: #d4d7da;
+    font-weight: bold;
+}
+
+.arrowSidebar{
+    width: 30px;
+}
+
+#divLeftArrowSidebar{
+    width: 30px;
+    position: absolute;
+    top: 115px;
+    right: -15px;
+}
+
+#leftArrowSidebar:hover, #divRightArrowSidebar:hover{
+    cursor: pointer;
+}
+
+.divRightArrowSidebar{
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes adelante{
+    0% { transform: translateX(0); }
+    50% { transform: translateX(15px); }
+    100% { transform: translateX(0); }
+}     
+
+.divRightArrowSidebar:hover {   
+    animation-name:adelante;   
+    animation-timing-function: ease;
+    cursor: pointer;   
+    transform:scale(1.1);
+}
+
+.divLeftArrowSidebar{   
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+   
+@keyframes atras{   
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.divLeftArrowSidebar:hover {   
+    animation-name:atras;
+    animation-timing-function: ease;
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+.imagenIndex:hover{
+    transform: scale(1.02);
+}
