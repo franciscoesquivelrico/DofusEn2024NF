@@ -49,20 +49,20 @@ li{
 
 .navButton:hover{
     transform:translateY(-1px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+    background-color:rgba#ffb48d;
+    color: #3b264d;
 }
 
 .navButtonImagen:hover{
     transform:translateY(-1px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+    background-color:#ffb48d;
+    color: #3b264d;
 }
 
 li:hover{
     transform:translateY(-4px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+    background-color:#ffb48d;
+    color: #3b264d;
 }
 
 #navUL{
@@ -127,6 +127,8 @@ footer{
     background-color: rgb(56, 56, 56, 0.5);
 }
 
+
+
 #indexAImg:hover{
     transform: scale(1.05);
 }
@@ -147,6 +149,8 @@ footer{
     height: 50px;
     display: inline-block;
 }
+
+
 
 .liSidebar{
    padding: 5px;
@@ -186,6 +190,12 @@ footer{
 
 .divImgSidebar{
     display: inline-block;
+}
+
+.spanSidebar:hover, #headerSidebar:hover{
+    transform:translateY(-1px);
+    background-color:#ffb48d;
+    color: #3b264d;
 }
 
 .spanSidebar{
