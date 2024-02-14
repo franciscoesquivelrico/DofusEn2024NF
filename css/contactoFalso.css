@@ -1,0 +1,46 @@
+h1{
+    box-shadow: 2px 2px 5px #3b264d;
+    margin: 20px;
+    background-color: rgba(248, 255, 255, 0.1);
+    font-size:x-large;
+    border-left: 5px solid rgba(129, 27, 87, 0.856);
+    padding: 10px;
+    border-radius: 10px 10px 2px;
+}
+
+#mainDiv{
+    height: 500px;
+    margin-bottom: 1900px;
+    border-radius: 20px;
+    margin-top: 300px;
+    margin-left: 435px;
+    text-align: center;
+}
+
+#titulo{
+    color: rgb(15, 15, 15);
+    background-color: #ffffff73;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 600px;
+    border-radius: 10px 10px 100px 100px;
+}
+
+#divContacto{
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.918);
+    border-radius: 100px;
+}
+
+#contacto{
+    color: red;
+    font-size: 180px;
+}
+
+#reset{
+    margin-left: -700px;
+    width: 100px;
+}
