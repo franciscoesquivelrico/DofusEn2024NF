@@ -3,6 +3,9 @@
     margin: 20px;
     background-color: rgba(248, 255, 255, 0.1);
     text-align: center;
+    border-left: 5px solid rgba(129, 27, 87, 0.856);
+    padding: 10px;
+    border-radius: 10px 10px 2px;
 }
 
 .imagenDerecha{
@@ -27,7 +30,7 @@
 }
 
 .divTextoDerecha{
-    width: 450px;
+    width: 500px;
     position: absolute;
     margin-left: 350px;
     margin-top: 25px;
@@ -76,7 +79,7 @@
 #imagenSacrogritos{
     width: 300px;
     margin-top: 40px;
-    margin-right: 10px;
+    margin-right: -10px;
 }
 
 #imagenFecas{
@@ -132,34 +135,80 @@ p{
     height: 200px;
 }
 
-
-
-
-.navButton{
-    display: inline-block;
-    width: 180px;
-    height: 45px;
-    border-radius: 20px;
-    background-color: rgba(185, 221, 255, 0.2);
-    padding-top: 10px;
-    margin-top: 0.5px;
-}
-li{
-    display: inline-block;
-    width: 180px;
-    height: 54px;
-    border-radius: 20px;
-    background-color: rgba(185, 221, 255, 0.2);
+img:hover{
+    transform:scale(1.04);
 }
 
-.navButton:hover{
-    transform:translateY(-1px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+.bordeIzquierda{
+    border-radius: 210px 10px 10px 210px;
 }
 
-li:hover{
-    transform:translateY(-4px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+.bordeDerecha{
+    border-radius: 10px 210px 210px 10px;
+}
+
+.textoScroll{
+    overflow-y: scroll;
+    height: 150px;
+    overflow-x: hidden;
+    margin-top: -15px;
+    padding-right: 550px;
+}
+
+.textoScrollIzquierda{
+    margin-left: 5px;
+    padding-right: -20px;
+    height:150px;
+    direction:rtl;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    padding-right: -100px;
+    margin-left:-50px;
+    margin-top: -15px;
+}
+
+.textoScroll::-webkit-scrollbar {
+    width: 12px;              
+}
+
+.textoScroll::-webkit-scrollbar-track {
+    background:rgba(129, 27, 87, 0.856);      
+    border-radius: 20px;    
+}
+  
+.textoScroll::-webkit-scrollbar-thumb {
+    background-color:#ffba90;    
+    border-radius: 20px;     
+    border: solid 1px  black;
+}
+
+.textoScrollIzquierda::-webkit-scrollbar {
+    width: 12px;              
+}
+
+.textoScrollIzquierda::-webkit-scrollbar-track {
+    background:rgba(129, 27, 87, 0.856);      
+    border-radius: 20px;    
+}
+  
+.textoScrollIzquierda::-webkit-scrollbar-thumb {
+    background-color:#ffba90;    
+    border-radius: 20px;     
+    border: solid 1px black;
+}
+
+
+#mainDiv::-webkit-scrollbar {
+    width: 12px;             
+}
+
+#mainDiv::-webkit-scrollbar-track {
+    background:rgba(129, 27, 87, 0.493);      
+    border-radius: 20px;    
+}
+  
+#mainDiv::-webkit-scrollbar-thumb {
+    background-color:#ffba90;    
+    border-radius: 20px;     
+    border: solid 1px black;
 }
