@@ -1,5 +1,13 @@
-span{
+label{
     font-size: 25px;
+}
+
+#nombreUsuarioDiv{
+    padding-top: 40px;
+}
+
+#contraseñaUsuarioDiv{
+    padding-top: 50px;
 }
 
 input{
@@ -10,15 +18,14 @@ input{
 }
 
 #mainDiv{
-    height: 500px;
+    height: 670px;
     margin-bottom: 200px;
     border-radius: 20px;
 }
 
 #titulo{
     padding-top: 30px;
-    padding-left: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     color:white;
     text-shadow: 2px 2px 2px black;
     text-align: center;
@@ -67,10 +74,12 @@ input{
 
 #tamanhioUsuario{
     padding-right: 150px;
+    border: 2px solid black;
 }
 
 #tamanhioContrasenia{
     padding-right: 150px;
+    border: 2px solid black;
 }
 
 #inicioSesion{
