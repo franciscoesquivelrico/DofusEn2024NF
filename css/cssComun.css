@@ -118,7 +118,7 @@ a{
 }
 
 footer{
-    color: rgb(214, 221, 221);
+    color: rgb(255, 255, 255);
     backdrop-filter: blur(40px);
     text-align: center;
     box-shadow: 2px 2px 5px #3b264d;
@@ -128,7 +128,9 @@ footer{
     background-color: rgb(56, 56, 56, 0.5);
 }
 
-
+.aFooter{
+    color: white;
+}
 
 #indexAImg:hover{
     transform: scale(1.05);
