@@ -166,8 +166,9 @@ footer{
 }
 
 #sidebar{
+    transition: transform 0.5s ease-in;
     position: fixed;
-    left: 0px;
+    left: -210px;
     top: 250px;
     z-index: 1;
     border-radius: 0px 20px 20px 0px;
@@ -202,11 +203,12 @@ footer{
 .spanSidebar{
     font-size: small;
     text-align: center;
-    color: #d4d7da;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .arrowSidebar{
+    transform: rotate(180deg);
     width: 30px;
 }
 
@@ -225,6 +227,8 @@ footer{
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
+
+
 
 @keyframes adelante{
     0% { transform: translateX(0); }
@@ -259,4 +263,14 @@ footer{
 
 .imagenIndex:hover{
     transform: scale(1.02);
+}
+
+#headerSidebar{
+    box-shadow: 2px 2px 5px #3b264d;
+    margin-right: 25px;
+    background-color: rgba(248, 255, 255, 0.1);
+    font-size:x-large;
+    border-left: 5px solid rgba(129, 27, 87, 0.856);
+    padding: 10px;
+    border-radius: 10px 10px 2px;
 }
