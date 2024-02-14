@@ -1,0 +1,39 @@
+h1{
+    box-shadow: 2px 2px 5px #3b264d;
+    margin: 20px;
+    background-color: rgba(248, 255, 255, 0.1);
+    font-size:x-large;
+    border-left: 5px solid rgba(129, 27, 87, 0.856);
+    padding: 10px;
+    border-radius: 10px 10px 2px;
+}
+
+#mainDiv{
+    height: 350px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    margin-top: 300px;
+    margin-left: 435px;
+}
+
+#titulo{
+    color: rgb(15, 15, 15);
+    background-color: #ffffff73;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 600px;
+    border-radius: 10px 10px 100px 100px;
+}
+
+#imgs{
+    display:flex;
+    justify-content: center;
+}
+
+.img{
+    width: 200px;
+    display: flex;
+}

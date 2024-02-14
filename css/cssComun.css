@@ -49,20 +49,20 @@ li{
 
 .navButton:hover{
     transform:translateY(-1px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+    background-color:rgba#ffb48d;
+    color: #3b264d;
 }
 
 .navButtonImagen:hover{
     transform:translateY(-1px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+    background-color:#ffb48d;
+    color: #3b264d;
 }
 
 li:hover{
     transform:translateY(-4px);
-    background-color:rgba(22, 89, 94, 0.6);
-    color: white;
+    background-color:#ffb48d;
+    color: #3b264d;
 }
 
 #navUL{
@@ -86,6 +86,7 @@ li:hover{
     border-radius: 0px 0px 90px 90px;
     width: 1700px;
     margin-left: 100px;
+    border-bottom: #3b264d 2px solid;
 }
 
 #navImg{
@@ -117,7 +118,7 @@ a{
 }
 
 footer{
-    color: rgb(214, 221, 221);
+    color: rgb(255, 255, 255);
     backdrop-filter: blur(40px);
     text-align: center;
     box-shadow: 2px 2px 5px #3b264d;
@@ -125,6 +126,10 @@ footer{
     border-radius: 5px;
     padding-top: 10px;
     background-color: rgb(56, 56, 56, 0.5);
+}
+
+.aFooter{
+    color: white;
 }
 
 #indexAImg:hover{
@@ -140,6 +145,136 @@ footer{
     border-radius: 200px;
     box-shadow: 2px 2px 100px #ffb48d;
 
+}
+
+.imgSidebar{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+
+.liSidebar{
+   padding: 5px;
+   padding-bottom: 0;
+}
+
+#headerSidebar{
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #c4daec3f;
+}
+
+#sidebar{
+    transition: transform 0.5s ease-in;
+    position: fixed;
+    left: -210px;
+    top: 250px;
+    z-index: 1;
+    border-radius: 0px 20px 20px 0px;
+    border-bottom: solid 2px black;
+    background-color: rgba(185, 221, 255, 0.2);
+    box-shadow: 2px 2px 5px #3b264d;
+    width: 230px;
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+.divTextSidebar{
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    justify-items: center;
+    margin-top: 13px;
+}
+
+.divImgSidebar{
+    display: inline-block;
+}
+
+.spanSidebar:hover, #headerSidebar:hover{
+    transform:translateY(-1px);
+    background-color:#ffb48d;
+    color: #3b264d;
+}
+
+.spanSidebar{
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.arrowSidebar{
+    transform: rotate(180deg);
+    width: 30px;
+}
+
+#divLeftArrowSidebar{
+    width: 30px;
+    position: absolute;
+    top: 115px;
+    right: -15px;
+}
+
+#leftArrowSidebar:hover, #divRightArrowSidebar:hover{
+    cursor: pointer;
+}
+
+.divRightArrowSidebar{
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes adelante{
+    0% { transform: translateX(0); }
+    50% { transform: translateX(15px); }
+    100% { transform: translateX(0); }
+}     
+
+.divRightArrowSidebar:hover {   
+    animation-name:adelante;   
+    animation-timing-function: ease;
+    cursor: pointer;   
+    transform:scale(1.1);
+}
+
+.divLeftArrowSidebar{   
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+   
+@keyframes atras{   
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.divLeftArrowSidebar:hover {   
+    animation-name:atras;
+    animation-timing-function: ease;
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+.imagenIndex:hover{
+    transform: scale(1.02);
+}
+
+#headerSidebar{
+    box-shadow: 2px 2px 5px #3b264d;
+    margin-right: 25px;
+    background-color: rgba(248, 255, 255, 0.1);
+    font-size:x-large;
+    border-left: 5px solid rgba(129, 27, 87, 0.856);
+    padding: 10px;
+    border-radius: 10px 10px 2px;
 }
 
 body::-webkit-scrollbar {
