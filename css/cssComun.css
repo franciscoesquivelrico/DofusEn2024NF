@@ -210,7 +210,7 @@ footer{
 }
 
 .arrowSidebar{
-    transform: rotate(180deg);
+  
     width: 30px;
 }
 
@@ -223,44 +223,6 @@ footer{
 
 #leftArrowSidebar:hover, #divRightArrowSidebar:hover{
     cursor: pointer;
-}
-
-.divRightArrowSidebar{
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-}
-
-
-
-@keyframes adelante{
-    0% { transform: translateX(0); }
-    50% { transform: translateX(15px); }
-    100% { transform: translateX(0); }
-}     
-
-.divRightArrowSidebar:hover {   
-    animation-name:adelante;   
-    animation-timing-function: ease;
-    cursor: pointer;   
-    transform:scale(1.1);
-}
-
-.divLeftArrowSidebar{   
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-}
-   
-@keyframes atras{   
-    0% { transform: translateX(0); }
-    50% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
-}
-
-.divLeftArrowSidebar:hover {   
-    animation-name:atras;
-    animation-timing-function: ease;
-    cursor: pointer;
-    transform:scale(1.1);
 }
 
 .imagenIndex:hover{
