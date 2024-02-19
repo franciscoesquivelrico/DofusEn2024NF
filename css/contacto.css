@@ -1,0 +1,63 @@
+#mainDiv{
+    height: 670px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+}
+
+#titulo{
+    padding-top: 30px;
+    margin-bottom: 16px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.tituloTabla{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+span{
+    font-size: 25px;
+}
+
+.tdCorreo{
+    width: 15px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#contacto{
+    margin-left: 280px;
+    margin-top: 25px;
+    width: 500px;
+    height: 260px;
+
+}
+table{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#tablaCorreo{   
+    background-color: rgba(187, 217, 247, 0.4);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 100px;
+    width: 500px;
+    height: 260px;
+    padding-bottom: 55px;
+}
+
+.tdTelefono{
+    width: 15px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
